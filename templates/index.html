@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Advisor - Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aptos+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Aptos Display', Arial, sans-serif;
+            background: #f8fbff;
+            color: #1a237e;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5em;
+            color: #1565c0;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2em;
+            color: #37474f;
+        }
+        .start-btn {
+            background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 0.8em 2.2em;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .start-btn:hover {
+            background: linear-gradient(90deg, #1565c0 0%, #42a5f5 100%);
+            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .container { padding: 20px 5px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Tax Advisor</h1>
+        <p>Your personalized, AI-powered tax planning platform for salaried professionals in India.</p>
+        <button class="start-btn" onclick="window.location.href='/upload'">Start</button>
+        <p style="margin-top:2em;font-size:0.95em;color:#90a4ae;">Phase 1: Landing page only. More features coming soon.</p>
+    </div>
+</body>
+</html> 
